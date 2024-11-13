@@ -1,0 +1,462 @@
+@media screen and (max-width: 1500px) {
+    body{
+        background-size: auto;
+        padding: 0 17%;
+                                                
+    }
+    .kapasiya-title p::after {
+        width: 100%;
+    }
+    .nav li {
+        padding: 8px 11px;
+    }
+    .mojib_content_left_side {
+        max-width: 760px;
+        width: 74%;
+    }
+    .teacher {
+        max-width: 240px;
+        width: 24%;
+    }
+    .video_cont iframe {
+
+        width: 95%;
+    }
+
+    .footer_image {
+       width: 100%;
+       margin: auto;
+
+    }
+}
+@media screen and (max-width: 1407px) {
+    body{
+        background-size: auto;
+        padding: 0 16%;
+                                                
+    }
+    .nav li {
+        padding: 8px 10px;
+    }
+}
+@media screen and (max-width: 1330px) {
+    body{
+        background-size: auto;
+        padding: 0 15%;
+                                                
+    }
+}
+@media screen and (max-width: 1292px) {
+    body{
+        background-size: auto;
+        padding: 0 14%;
+                                                
+    }
+}
+@media screen and (max-width: 1256px) {
+    body{
+        background-size: auto;
+        padding: 0 13%;
+                                                
+    }
+}
+@media screen and (max-width: 1222px) {
+    body{
+        background-size: auto;
+        padding: 0 12%;
+                                                
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body{
+        background-size: auto;
+        padding: 0 10%;
+                                                
+    }
+    .kapasiya-title p::after {
+        width: 100%;
+    }
+
+    .nav li {
+        padding: 8px 11px;
+    }
+    .mojib_content_left_side {
+        max-width: 760px;
+        width: 74%;
+    }
+    .teacher {
+        max-width: 240px;
+        width: 24%;
+    }
+    .video_cont iframe {
+
+        width: 95%;
+    }
+
+    .footer_image {
+       width: 100%;
+       margin: auto;
+
+    }
+
+}
+
+@media screen and (max-width: 1161px) {
+    body{
+        background-size: auto;
+        padding: 0 9%;
+                                                
+    }
+    .nav li {
+        padding: 8px 10px;
+    }
+    .footer_image {
+        max-width: 1161px;
+        width: 100%;
+        margin: auto;
+ 
+     }
+}
+@media screen and (max-width: 1103px) {
+    body{
+        background-size: auto;
+        padding: 0 7%;
+                                                
+    }
+    .nav li {
+        padding: 8px 11px;
+    }
+    .footer_image {
+        max-width: 1103px;
+        width: 100%;
+        margin: auto;
+ 
+     }
+}
+@media screen and (max-width: 1080px) {
+    body{
+        background-size: auto;
+        padding: 0 5%;
+                                                
+    }
+    .nav li {
+        padding: 8px 11px;
+    }
+    .footer_image {
+        max-width: 1080px;
+        width: 100%;
+        margin: auto;
+ 
+     }
+}
+@media screen and (max-width: 1032px) {
+    body{
+        background-size: auto;
+        padding: 0 3%;
+                                                
+    }
+    .footer_image {
+        max-width: 1032px;
+        width: 98%;
+        margin: auto;
+ 
+     }
+}
+@media screen and (max-width: 988px) {
+    body{
+        background: none;                                       
+    }
+    .banner-heading h1 {
+        font-size: 19px ;
+    }
+    .nav li {
+        padding: 8px 10px;
+    }
+    .footer_image {
+        max-width: 988px;
+        width: 100%;
+        margin: auto;
+ 
+     }
+}
+@media screen and (max-width: 962px) {
+     .kapashiya_all_banner {
+        max-width: 960px;
+        width: 100%;
+        padding: 0 50px;
+     }
+     .nav {
+        max-width: 960px;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .nav_toggle {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu ul {
+        flex-direction: column; 
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .nav li {
+        border: none;
+    }
+    .nav li {
+        border: none !important;
+        width: 100%;
+        text-align: left;
+    }
+    .nav-img img{
+        width: 40px;
+    }
+    .nav-menu ul{
+        border: none;
+    }
+    li.all_nav_itm:hover .all_sub_menu_D {
+    
+        left: 200px;
+        top: 35px;
+    }
+    .navigation .container {
+        border-bottom:none;
+    }
+    .all_sub_menu_D ul {
+        padding-top: 10px;
+        border: none;
+    }
+    .mozib_content {
+        flex-direction: column ;
+    }
+    .mojib_content_left_side {
+        max-width: 960px;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .hasina_photo {
+        max-width: 960px;
+        width: 100%;
+    }
+    .notic_img {
+        display: none;
+    }
+    .notic_doco {
+        padding: 0 5px 0 10px;
+    }
+    .teacher {
+        max-width: 960px;
+        width: 100%;
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+    .Emergency_image img {
+        width: 60%;
+    }
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    .kapashiya_all_banner {
+        max-width: 767px;
+        width: 90%;
+        padding: 0 80px;
+     }
+     .banner-logo img {
+        width: 46px;
+     }
+     .banner-heading h1 {
+        font-size: 12px;
+     }
+     .banner-content {
+        gap: 10px;
+        padding: 0 39px;
+        height: 368px;
+    }
+     .nav {
+        max-width: 767px;
+        width: 90%;
+        padding: 0 80px;
+    }
+    .mojib_content_left_side {
+        max-width: 767px;
+        width: 90%;
+        padding: 0 80px;
+    }
+    .blog_section {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .video_cont {
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+
+    .teacher {
+        max-width: 767px;
+        width: 90%;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .teacher h5 {
+        height: 34px;
+    }
+    .Emergency_image img {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 653px) {
+    .kapashiya_all_banner {
+        max-width: 653px;
+        width: 90%;
+        padding: 0 20px;
+     }
+    .banner-logo img {
+        width: 40px;
+     }
+     .banner-heading h1 {
+        font-size: 12px;
+     }
+     .nav {
+        max-width: 653px;
+        width: 90%;
+        padding: 0 20px;
+    }
+    .mojib_content_left_side {
+        max-width: 653px;
+        width: 90%;
+        padding: 0 20px;
+    }
+    .teacher {
+        max-width: 653px;
+        width: 90%;
+        padding: 0 20px;
+    }
+    .national_song audio {
+        width: 200px;
+        height: 50px;
+     }
+    
+}
+@media screen and (max-width: 500px) {
+    .kapashiya_all_banner {
+        max-width: 767px;
+        width: 90%;
+        padding: 0 10px;
+     }
+    .banner-logo img {
+        width: 40px;
+     }
+     .banner-heading h1 {
+        font-size: 12px;
+     }
+     .banner-content {
+        gap: 5px;
+        padding: 0 20px;
+        height: 368px;
+    }
+    .nav {
+        max-width: 500px;
+        width: 90%;
+        padding: 0 10px;
+    }
+    .mojib_content_left_side {
+        max-width: 500px;
+        width: 90%;
+        padding: 0 10px;
+    }
+    .teacher {
+        max-width: 500px;
+        width: 90%;
+        padding: 0 10px;
+    }
+    .footer_doco {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .kapashiya_all_banner {
+        max-width: 426px;
+        width: 100%;
+        padding: 0 10px;
+     }
+    .banner-logo img {
+        width: 20px;
+     }
+     .banner-heading h1 {
+        font-size: 10px;
+     }
+     .national_song audio {
+        width: 200px;
+        height: 40px;
+     }
+     .mojib_content_left_side {
+        max-width: 426px;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .teacher {
+        max-width: 426px;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .all_sub_menu_D{
+        background-color: #f5f5f5 !important;
+        z-index: 999;
+        left: 89px !important;
+
+    }
+    .nav{
+        background-color: #d7d7d7;
+        padding: unset !important;
+        margin-left: 10px;
+        width: 94%;
+    }
+
+}
+@media screen and (max-width: 352px) {
+
+}
+
+
+
+
+
+/* }
+@media screen and (max-width: 1186px) {
+    .nav li {
+        padding: .5% 1.20%;
+    }
+    .mojib_content_left_side {
+        max-width: 720px;
+        width: 75%;
+    }
+    .teacher {
+        max-width: 220px;
+        width: 75%;
+    }
+    .footer_image {
+        max-width: 1023px;
+        width: 100%;
+        padding: auto;
+    }
+
+} */

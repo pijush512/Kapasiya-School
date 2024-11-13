@@ -1,0 +1,550 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url(../images/bg_main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    min-height: 100vh;
+                                            
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 1023px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Todo:==============Header Banner Section SDesign=============*/
+.kapasiya-title {
+    background-color: #393232;
+    height: 40px;
+}
+.kapasiya-title p {
+    color: #fff;
+    font-weight: 700;
+    padding-left: 10px;
+    position: relative;
+    font-size: 12px;
+}
+.kapasiya-title p:hover {
+    background-color: green;
+    width: 26.5%;
+}
+.kapasiya-title p::after {
+    content: "";
+    background-color: #e48257;
+    width: 1023px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    margin-top: 26px;
+}
+.banner-image_a {
+    background-image: url(../images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 260px;
+}
+.banner-image_b {
+    background-image: url(../images/banner_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 260px;
+}
+.banner-image_c {
+    background-image: url(../images/banner_c.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 260px;
+}
+.banner-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 50px;
+    height: 280px;
+}
+.banner-heading h1 {
+    color: #fff;
+    font-size: 26px;
+    text-shadow: 6px -4px 7px #333;
+    
+}
+/* todo:=======Navigation design========= */
+.navigation {
+    margin-top: 4px;
+}
+.navigation ul li a{
+    font-size: 15px !important;
+    position: relative;
+    z-index: 99;
+
+}
+.banner-logo img {
+    width: 70px;
+    height: auto;
+}
+.nav-menu ul {
+    list-style: none;;
+}
+.nav-menu a {
+    text-decoration: none;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.navigation .container {
+    border-bottom: 1px dotted #ccc;
+}
+.nav li {
+    border-right: 1px dotted #ccc;
+    padding: 8px 14.5px;
+}
+#nav-img:hover {
+    background-color: black;
+}
+.nav-img {
+    padding: 0;
+    margin: 0px -10px;
+}
+
+/* todo: ===================mobile menu design=============== */
+.nav_toggle {
+    height: 29px;
+    width: 38px;
+    background-color: #666;
+    border: none;
+    border-radius: 3px;
+    display: none;
+}
+/* button.nav_toggle:focus {
+    box-shadow: 0 0 15px rgba(100, 149, 237, 0.7);
+    outline: none;
+} */
+
+
+.nav_toggle span {
+    height: 2px;
+    width: 15px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.nav_toggle span::after,
+.nav_toggle span::before {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: '';
+}
+.nav_toggle span::after {
+    transform: translateY(-6px)
+}
+.nav_toggle span::before {
+    transform: translateY(6px);
+}
+.block {
+    display: block !important;
+}
+
+
+.cump a {
+    color: #FF6600;
+}
+.vorti a, .clas-som a {
+    color: #C40A2A;
+}
+.mangment a {
+    color: #84154D;
+}
+.Acadme a {
+    color: #098346;
+}
+.student a {
+    color: #1399BE;
+}
+.result a {
+    color: #8768DE;
+}
+.resource a {
+    color: #3a6351;
+}
+.notice a, .galary a, .login a {
+    color: #26001b;
+}
+/* todo=====Hover Effict+++++++ */
+li.cump:hover, li.cump a:hover, li.cump:hover a {
+    color: white;
+    background: #FF6600;
+}
+li.vorti:hover, .clas-som:hover, li.vorti:hover a, li.clas-som:hover a {
+    color: white;
+    background: #C40A2A;
+}
+li.mangment:hover, .mangment:hover a {
+    color: white;
+    background: #84154D;
+}
+li.Acadme:hover, .Acadme:hover a {
+    color: white;
+    background: #098346;
+}
+li.student:hover, .student:hover a {
+    color: white;
+    background: #1399BE;
+}
+li.result:hover, .result:hover a {
+    color: white;
+    background: #8768DE;
+}
+li.resource:hover, .resource:hover a {
+    color: white;
+    background: #3a6351;
+}
+li.notice:hover, li.galary:hover, li.login:hover, .notice:hover a, .galary:hover a, .login:hover a   {
+    color: white;
+    background: #26001b;
+}
+/* todo:==========Drop Down menu bar for cump============= */
+.all_nav_itm {
+    position: relative;
+}
+.all_sub_menu_D{
+    display: none;
+}
+.all_sub_menu_D ul li a {
+    color: #000 !important;
+    background-color: #fff !important;
+    font-size: 12px !important;
+}
+
+li.all_nav_itm:hover .all_sub_menu_D {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    left: 0px;
+    top: 35px;
+}
+li.all_nav_itm:hover .all_sub_menu_D ul {
+    display: block;
+}
+.all_sub_menu_D ul li {
+    text-align: left;
+    width: 200px;
+    height: 35px;
+    padding: 6px 0px 0px 8px;
+    border-right: none;
+    border-bottom: 1px dotted #ccc;
+}
+/* todo:=============Sub menu item top border color  Design ====================== */
+.all_sub_menu_D ul {
+    padding-top: 10px;
+    border: 1.5px solid #ccc;
+}
+.sub_menu ul {
+    border-top: 7px solid  #FF6600;
+}
+.vorti_sub_menu, .clas-som_sub_menu ul {
+    border-top: 7px solid  #C40A2A;
+}
+.mangment_sub_menu ul {
+    border-top: 7px solid  #84154D;
+}
+.Acadme_sub_menu ul {
+    border-top: 7px solid  #098346;
+}
+.student_sub_menu ul {
+    border-top: 7px solid  #1399BE;
+}
+.result_sub_menu ul {
+    border-top: 7px solid  #8768DE;
+}
+.resource_sub_menu ul {
+    border-top: 7px solid  #3a6351;
+}
+.notice_sub_menu, .galary_sub_menu, .login_sub_menu ul {
+    border-top: 7px solid  #26001b;
+}
+/* !:=============Header Design end++++++++++++++ */
+/* todo:=============Mojib Left Section Design Start====================== */
+.mozib_content {
+    margin-top: 20px;
+}
+.mozib_content {
+    display: flex;
+    justify-content: space-between;
+}
+.hasina_photo {
+    max-width: 760px;
+}
+/* todo:==================Running Text design================ */
+.running_text {
+    margin-top: 4px;
+    background-color: #E6E7E8;
+    height: 45px;
+    display: flex;
+    align-items: center;
+
+}
+.running_text a {
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+/* todo:==================Notice Section design================ */
+.notic {
+    background-color: rgb(245, 245, 245);;
+    border: 1px solid #ddd ;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    padding-bottom: 45px;
+}
+.notic_doco h2 {
+    color: #181818;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 20px 0 40px 0;
+}
+.notic_img {
+    width: 90px;
+}
+.notic_doco ul li {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 5px 0;
+
+}
+.notic_doco ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #444;
+    padding-left: 10px;
+    border-bottom: 1px dotted black;
+    padding: 8px 0;
+
+}
+.notic_doco ul li img {
+    margin-top: 5px;
+    width: 8px;
+    height: 10px;
+}
+.notice_button {
+    padding-top: 10px;
+    position: absolute;
+    right: 15px; 
+    
+}
+.notice_button button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #a6a6a6;
+    border: 0;
+}
+/* todo: ===========blog_section Design Start================== */
+.blog_section {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.cmmon_blog {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.cmmon_blog h3 {
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.all_cont {
+    display: flex;
+    gap: 10px;
+}
+.cmmon_blog img {
+    width: 100px;
+}
+.cmmon_blog ul li {
+    list-style: none;
+    padding-top: .5px;
+}
+.cmmon_blog ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #666;
+    padding-left: 7px;
+}
+.cmmon_blog ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+.cmmon_blog ul li img {
+    width: 8px;
+    height: 10px;
+}
+/* ! ===========blog_section Design End================== */
+/* todo:==============Video Galary Section design Start=============== */
+.video_galary h3{
+    margin-top: 60px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #181818;
+    padding-bottom: 15px;
+}
+.video_cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 6px;
+}
+.video_cont iframe{
+    width: 240px ;
+}
+/* !==============Video Galary Section design End=============== */
+/* ?=============Mojib Left Section Design End====================== */
+/* todo:=============Mojib Section Right side Design Start====================== */
+.teacher {
+    width: 240px;
+}
+.teacher_image {
+    display: flex;
+    justify-content: space-around;
+}
+.teacher a img {
+    width: 100px;
+}
+.teacher h5 {
+    color: #fff;
+    background-color: #3a6351;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 17px;
+}
+.teacher span {
+    font-size: 13px;
+    color: #000 !important;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+.teacher p {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    margin: 6px 0;
+}
+.founder, .principal, .vice_principal {
+    margin-bottom: 15px ;
+}
+/* todo:=============Mojib Section Right side important_link structure Design ====================== */
+.important_link ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, rgb(90, 50, 110) 50%, rgb(50, 100, 91) 10%);
+    border-image-slice: 1;
+}
+.important_link ul li img {
+    width: 15px;
+    height: 15px;
+}
+.important_link ul li a {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+/* todo:=============Mojib Section Right side Emergency_hotline Design ====================== */
+.Emergency_hotline {
+    margin-top: 25px;
+}
+/* todo:=============Mojib Section Right side National Song Design ====================== */
+.national_song_area {
+    margin-top: 10px;
+}
+.national_song audio {
+    width: 240px;
+    margin-top: -5px;
+}
+/* !=============Hasina Section Right side Design End====================== */
+/* todo:============================Footer Section Design Start========================= */
+ .footer_image {
+    margin-top: 50px;
+    /* width: 1100px; */
+    transform: scale(1.07);
+ }
+ .footer_doco {
+    margin-top: 20px;
+    background-image: #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+ }
+.footer_doco_left h6 {
+    color: #444;
+    font-size: 12px;
+}
+.footer_doco_left p {
+    text-align: left;
+    color: #444;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 2.5px 0;
+}
+/* .footer_doco_right h6 {
+    color: #444;
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+} */
+.footer_doco_right p {
+    text-align: right;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #444;
+    padding: 2.5px 0;
+    letter-spacing: -1px;
+}
+.footer_doco_right p span {
+    letter-spacing: 0.3;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer_doco_right p span:hover {
+    color: #000;
+}
+/* todo:============================Footer Section Design End========================= */

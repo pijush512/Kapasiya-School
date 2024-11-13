@@ -186,6 +186,13 @@
         width: 100%;
         padding: 0 50px;
      }
+     .navigation {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+
+
+     }
      .nav {
         max-width: 960px;
         width: 100%;
@@ -229,6 +236,7 @@
     }
     .navigation .container {
         border-bottom:none;
+    
     }
     .all_sub_menu_D ul {
         padding-top: 10px;
